@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".KayitActivity">
+
+    <ImageView
+        android:id="@+id/KayitImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/dusunme" />
+
+    <EditText
+        android:id="@+id/eposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="Lutfen Email Girin.."
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lutfen Parola Girin.."
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/adi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lutfen Adinizi Girin.."
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_create"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/soyadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lutfen Soyadinizi Girin.."
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_create"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/KayitButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayit OL"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:background="#fff"
+        />
+
+    <TextView
+        android:id="@+id/KayitSoru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Zaten uye misin ? Giris Yap"
+        android:textColor="#fff" />
+
+</LinearLayout>
